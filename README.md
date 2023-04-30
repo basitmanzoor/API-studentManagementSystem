@@ -10,10 +10,10 @@ This API is built using the following technologies:
 3. Maven
 
 # API Endpoints
-<b>POST /addStudent</b>
+<strong>POST /addStudent</strong>
 This endpoint allows you to add a new student to the system.
 
-Request Body
+<strong>Request Body</strong>
 The request body should be a JSON object with the following properties:
 <ul>
 <li>rollNo (integer): The roll number of the student</li>
@@ -22,20 +22,21 @@ The request body should be a JSON object with the following properties:
 <li>age(integer): The age of the student</li>
 </ul>
 
-GET /getStudentInfo
+<strong>GET /getStudentInfo</strong>
 This endpoint allows you to retrieve information about a student.
 
 Query Parameters
 The following query parameter is required:
 
-rollNo (integer): The roll number of the student you want to retrieve information for
+<strong>rollNo (integer)</strong>: The roll number of the student you want to retrieve information for
 
 # Running the API Locally
 To run this API locally, you will need to have Java and Maven installed on your system. Follow these steps:
 
-Clone this repository to your local machine
-Navigate to the project directory
-Run the command mvn spring-boot:run
-The API will be accessible at http://localhost:8080
-Contributing
+1. Clone this repository to your local machine
+2. Navigate to the project directory
+3. Run the command mvn spring-boot:run
+4. The API will be accessible at http://localhost:8080
+
+# Contributing
 If you find any issues or have suggestions for improving this API, feel free to open an issue or submit a pull request.
